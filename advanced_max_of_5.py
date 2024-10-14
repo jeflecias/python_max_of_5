@@ -9,7 +9,7 @@ def find_max(array):
         if i > highest:
             highest = i
     
-    return i
+    return highest
 
 list_of_numbers = []
 while len(list_of_numbers) != 5:

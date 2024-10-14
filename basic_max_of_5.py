@@ -20,6 +20,8 @@ def find_max(num_1,num_2,num_3,num_4,num_5):
 
     return highest_num
 
+print("Enter 5 numbers and then program will find the highest number")
+print("WARNING! Entering a non-integer will return an error")
 first = int(input("Enter first number: "))
 second = int(input("Enter second number: "))
 third = int(input("Enter third number: "))

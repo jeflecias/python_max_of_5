@@ -20,3 +20,10 @@ def find_max(num_1,num_2,num_3,num_4,num_5):
 
     return highest_num
 
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
+third = int(input("Enter third number: "))
+fourth = int(input("Enter fourth number: "))
+fifth = int(input("Enter fifth number: "))
+
+print(find_max(first,second,third,fourth,fifth))

@@ -1,2 +1,12 @@
 # PLD
 # find the highest number but with the use of try and except block, for loop, and lists
+
+def find_max(array):
+    #assume the first number is the highest
+    highest = array[0]
+
+    for i in highest[1::]:
+        if i > highest:
+            highest = i
+    
+    return i
